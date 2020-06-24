@@ -33,10 +33,10 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
-        <dependency>
+    <dependency>
       <groupId>io.micronaut.configuration</groupId>
       <artifactId>micronaut-jdbc-tomcat</artifactId>
-          <version>${micronaut.data.version}</version>
+      <version>${micronaut.data.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -48,6 +48,18 @@
     <dependency>
       <groupId>io.micronaut.data</groupId>
       <artifactId>micronaut-data-jdbc</artifactId>
+      <version>${micronaut.data.version}</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.data</groupId>
+      <artifactId>micronaut-data-model</artifactId>
+      <version>${micronaut.data.version}</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.data</groupId>
+      <artifactId>micronaut-data-runtime</artifactId>
       <version>${micronaut.data.version}</version>
       <scope>compile</scope>
     </dependency>
