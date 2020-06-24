@@ -36,6 +36,7 @@
         <dependency>
       <groupId>io.micronaut.configuration</groupId>
       <artifactId>micronaut-jdbc-tomcat</artifactId>
+          <version>${micronaut.data.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
